@@ -1,0 +1,150 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{photo.jpg} % Profile picture
+
+\cvname{David Legarre\\Saavedra} % Your name
+\cvjobtitle{} % Job title/career
+\cvdate{Born 7 July 2000, Barcelona} % Date of birth
+\cvnumberphone{+34 684\,21\,33\,79} % Phone number
+\cvmail{davidlegarre1@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{I am currently studying a Bachelor's degree in Mathematical Engineering in Data Science. I enjoy learning new things and all the possible applications Data Science has in the real world.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\lang{{German/1},{Spanish/6},{Catalan/6},{English/6}}
+
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{C,C++/1.4},{Java/2},{R/4},{SQL/4.7},{Python/5.5}}
+
+%----------------------------------------------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{since 2018}{Mathematical Engineering on Data Science}{Universitat Pompeu Fabra}{
+        Bachelor Thesis: "Deep Learning Methods for MRI coil Channel Optimization": 
+        A thesis done in collaboration with l'hospital clínic 
+        de Barcelona and General Electric Healthcare.
+    }
+	\twentyitem{2016-2018}{Batxillerat científic-tecnològic}{Jesüites el Clot}{}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Complementary Education}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitem{2018}{English C1 Advanced - 190}{Cambridge Assessment English}{}
+	\twentyitem{2016}{English B2 First - 165}{Cambridge Assessment English}{}
+	
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Experience}
+
+\begin{twenty}
+    \twentyitem{2021-Present }{Applied Intelligence Accenture}{}{
+    \begin{itemize}
+        \item \textbf{Heart Failure prediction model}: Working in collaboration with hospitals and using the datasets availabe, I built a model to help predict Heart failure in patients
+        \item \textbf{Data visualization}: To help explain all the
+        all the projects, I have done many data visualization models
+    \end{itemize}
+    }
+    \twentyitem{2016-2020}{Collaborating in familiar businesses}{}{I've been working in our family businesses, a restaurant and a shop, attending clients and managing the shopping.}
+\end{twenty}
+
+\section{Skills and experience}
+
+\begin{twentyshort}
+    \twentyitemshort{Tools}{Seaborn, Keras and Tensorflow, Matplotlib, Google Collab, GitHub, Jupyter Notebooks, Linux Terminal, MySQL, Google Sheets, OpenCV, Pytorch, GitHub, Tableau, Microsoft Power BI}{}
+    \\
+    \twentyitemshort{2020}{Driver's license}
+\end{twentyshort}
+\section{Interests}
+
+\begin{twentyshort}
+    \twentyitemshort{Machine\\Learning}{I am really passionate about the applications of Machine learning, specifically in the applications of Deep learning algorithms in the Biomedical Sciences field}{}
+    \\
+    \twentyitemshort{Kaggle}{I have tried many Kaggle challenges in the past and always have found them interesting as opportunities to improve my skills and confidence in the tools available to me}{}
+    \\
+    \twentyitemshort{Language\\ Learning}{I am interested in learning as most languages as I can. I focused primarily on my English but now I'm actually studying German on my own}
+\end{twentyshort}
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
