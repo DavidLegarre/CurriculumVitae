@@ -41,12 +41,17 @@
 
 %%%%%%%%%%%%%%% GitHub %%%%%%%%%%%%%%%
 \newcommand{\github}[2]{
-    \info{\href{#1}{\underline{#2}}}{github}
+    \info{\href{#1}{\underline{#2}}}{github-square}
 }
 
 %%%%%%%%%%%%%%% LinkedIn %%%%%%%%%%%%%%%
 \newcommand{\linkedin}[2]{
     \info{\href{#1}{\underline{#2}}}{linkedin}
+}
+
+%%%%%%%%%%%%%%% Kaggle %%%%%%%%%%%%%%%
+\newcommand{\kaggle}[2]{
+    \info{\href{#1}{\underline{#2}}}{kaggle}
 }
 
 %%%%%%%%%%%%%%% Website %%%%%%%%%%%%%%%
@@ -91,6 +96,20 @@
     \drawskillbars{#2}
     \vspace{1em}
  }
+
+%%%%%%%%%%%%%%% Education %%%%%%%%%%%%%%%
+\newcommand{\comeducation}[3]{
+    % Name of the studies
+    \noindent \large \parbox{.7\linewidth}{\textbf{#1}}
+    % Duration in a Box
+    \hfill \scriptsize
+    \tcbox[enhanced,box align=base,nobeforeafter,colback=title,colframe=title,size=fbox,arc=0mm]{\textbf{#2}} \par
+    %\vspace{0.3em}
+    % School Name 
+    \large
+    \noindent \color{title} \parbox{.7\linewidth}{\textsl{#3}} \par
+    \normalsize \color{black}
+}
 
 %%%%%%%%%%%%%%% Education %%%%%%%%%%%%%%%
 \newcommand{\education}[4]{
